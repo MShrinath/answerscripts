@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PDF Viewer</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>scriptstash</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>PDF Viewer</h1>
+<header class="header">
+  <h1>scriptstash</h1>
+</header>
 
-  <div class="pdf-container">
-    <iframe 
-      id="pdfViewer"
-      src="assets/pdf.pdf"
-      frameborder="0">
-    </iframe>
-  </div>
+<main class="explorer">
+  <div id="sidebar" class=""></div>
+  <div id="content" class="content"></div>
+</main>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
